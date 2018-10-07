@@ -1,0 +1,60 @@
+.vacancies-container .vacancies-block {
+	webkit-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.3);
+    -o-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.3);
+    -ms-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.3);
+    max-width: 800px;
+    margin: 0px auto;
+    padding: 15px;
+    position: relative;
+    padding: 50px;
+    color:#326a77 !important;
+    padding-bottom: 65px;
+}
+.vacancies-block ul {
+	font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+    padding-left:20px;
+}
+.vacancies-block ul li {
+	margin-bottom:5px;
+}
+#vacancies-wrapper {
+	padding-bottom: 50px;
+	padding-top:60px;
+}
+h1 {
+	margin-bottom:30px;
+}
+.vacancies-block hr {
+	border-top: 1px solid #326a77; 
+}
+.words-wrapper {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.recruiter-contacts {
+	padding-bottom:20px;
+}
+.recruiter-contacts .col-xs-6 , .recruiter-contacts .col-xs-12 {
+	padding:0px;
+}
+.recruiter-contacts ul {
+	float:right;
+}
+.recruiter-contacts li {
+	list-style:none;
+}
+.recruiter-name {
+	font-weight:600;
+}
+.recruiter-contacts a {
+	color:#3C8647;
+	text-decoration: underline !important;
+}
+.recruiter-contacts a:hover {
+	text-decoration: none !important;
+	color:#52AE60;
+}
