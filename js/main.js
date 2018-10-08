@@ -208,16 +208,16 @@ $(document).ready(function () {
             $('.additional-container .img-wrap').html(img);
             switch(data_sect) {
                 case '1':
-                     $('.additional-container .second-it-wrap p').html('For Salesforce to be implemented as quickly and intelligently as possible for specific processes and tools in your company, it’s important that the configuration be correct. 4front has broad experience with Salesforce configuration in many larger and smaller organizations and makes the configuration smart and tailored to your projects and systems. Our specialists can also assist with ongoing configuration work or work with projects both before and after the configuration.');
+                     $('.additional-container .second-it-wrap p').html('Текст');
                     break;
                 case '2':
-                    $('.additional-container .second-it-wrap p').html('4front developers and IT technicians help you achieve the best results you need in the smartest way—and as a Salesforce Partner, we guarantee specialists with the latest knowledge of the Salesforce platform. Our developers are also coached in scrum methodology to ensure projects are implemented as efficiently as possible with the greatest possible focus on customer benefit. With Salesforce Cloud Services, you can create custom logic and applications—and offer your customers completely new opportunities. Read more about Salesforce in the sections "Why Salesforce" and "Salesforce applications" or contact us. We’ll be pleased to tell you more about our developers and their specific skills.');           
+                    $('.additional-container .second-it-wrap p').html('Текст');           
                     break;
                 case '3':
-                    $('.additional-container .second-it-wrap p').html("4front has a long history with implementation for medium and large companies in Sweden, Denmark, and all over the world. Implementation is the first step when you get started on your CRM system—so it's important that you hire an experienced specialist for agile project manager and Salesforce expertise. Our Salesforce-certified specialists in CRM, marketing automation, development, and system integration come up with all types of IT solutions—and make the transition as quick and easy as possible before the next step of the process: configuration."); 
+                    $('.additional-container .second-it-wrap p').html("Текст"); 
                     break;
                 case '4':
-                    $('.additional-container .second-it-wrap p').html("Most companies occasionally need extra help with internal support of their processes. 4front has flexible specialists who work in your or our office, ranging from project management and system administration to common support issues or advanced data access and back-end. We have many very satisfied customers—both in Sweden and all over the world."); 
+                    $('.additional-container .second-it-wrap p').html("Текст"); 
                     break;
             } 
 
