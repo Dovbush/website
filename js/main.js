@@ -57,19 +57,22 @@ $(document).ready(function () {
 
     $(function() {  
         $("body").niceScroll({
-            cursorcolor:"#52AE60",
+            cursorcolor:"#6e9fef",
             scrollspeed:150,
             zindex:1000,
-            cursorborder: 'none',
-            cursorwidth: "7px",
+            // cursorborder: 'none',
+            cursorborderradius: "1px",
+            cursorwidth: "10px",
             horizrailenabled: false
         });
         $(".solutions-item-hover .sol-wrapper p").niceScroll({
-            cursorcolor:"#52AE60",
+            cursorcolor:"#6e9fef",
+            // cursorcolor:"#52AE60",
             scrollspeed:150,
             zindex:1000,
-            cursorborder: 'none',
-            cursorwidth: "7px",
+            // cursorborder: 'none',
+            cursorborderradius: "1px",
+            cursorwidth: "10px",
             horizrailenabled: false
         });
     });
@@ -99,7 +102,7 @@ $(document).ready(function () {
 
         var mapOptions = {  
 
-            backgroundColor: "#142a2f", // background color
+            backgroundColor: "#142a2f", // background color "#142a2f"
             zoom: 16, // scale
             disableDefaultUI: true,
             draggable: true,
