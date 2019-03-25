@@ -339,6 +339,6 @@ function scrollToService() {
 function scrollToBlock(sectionId) {
     console.log('scrolllll ');
     $('html,body').animate({
-        scrollTop: $("#" + sectionId).offset().top - 88},
+        scrollTop: $("#" + sectionId).offset().top - 82},
         'slow');
 }
