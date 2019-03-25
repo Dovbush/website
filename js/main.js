@@ -284,7 +284,7 @@ $(window).resize(function() {
 
 
 $(window).scroll(function() {
-
+    console.log('header');
    if ($(this).scrollTop() > 0) {
    		$('.header-line').addClass('fixed');
    } else {
