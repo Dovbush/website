@@ -291,6 +291,7 @@ $(window).scroll(function() {
    }
 
    if ($(this).scrollTop() > 0) {
+        console.log('scroll');
         $('.header-line').addClass('header-on-scroll');
         $('.header-line img').addClass('logo-style');
    } else {
