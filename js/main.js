@@ -329,9 +329,9 @@ $(window).scroll(function() {
 });
 
 
-function scrollToBlock() {
+function scrollToAbout() {
     console.log('scrolllll ');
     $('html,body').animate({
-        scrollTop: $("#about-wrapper").offset().top},
+        scrollTop: $("#about-wrapper").offset().top + 100},
         'slow');
 }
