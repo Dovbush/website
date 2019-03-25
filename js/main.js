@@ -328,10 +328,13 @@ $(window).scroll(function() {
 
 });
 
-
 function scrollToAbout() {
+    scrollToBlock("about-wrapper");
+}
+
+function scrollToBlock(sectionId) {
     console.log('scrolllll ');
     $('html,body').animate({
-        scrollTop: $("#about-wrapper").offset().top - 100},
+        scrollTop: $("#" + sectionId).offset().top - 85},
         'slow');
 }
