@@ -323,3 +323,10 @@ $(window).scroll(function() {
     }
 
 });
+
+
+function scrollToBlock() {
+    $('html,body').animate({
+        scrollTop: $("#about-wrapper").offset().top},
+        'slow');
+}
