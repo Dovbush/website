@@ -326,6 +326,7 @@ $(window).scroll(function() {
 
 
 function scrollToBlock() {
+    console.log('scrolllll ');
     $('html,body').animate({
         scrollTop: $("#about-wrapper").offset().top},
         'slow');
