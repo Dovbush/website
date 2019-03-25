@@ -332,6 +332,10 @@ function scrollToAbout() {
     scrollToBlock("about-wrapper");
 }
 
+function scrollToService() {
+    scrollToBlock("solutions-wrapper");
+}
+
 function scrollToBlock(sectionId) {
     console.log('scrolllll ');
     $('html,body').animate({
