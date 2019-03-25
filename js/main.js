@@ -310,7 +310,7 @@ $(window).scroll(function() {
 
         $('section[id]').each(function() {
             let id = $(this).attr('id');
-            console.log('id ' + id);
+            // console.log('id ' + id);
             if ($(this).offset().top-100 < $(window).scrollTop()) {
           
                 $('.header-line li a').removeClass('active');
