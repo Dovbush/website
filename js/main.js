@@ -265,6 +265,10 @@ $(document).ready(function () {
 
     });
 
+    $("#about-btn").click(function(){
+        alert("The paragraph was clicked.");
+    });
+
 });
 
 $(window).resize(function() {
