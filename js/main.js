@@ -290,6 +290,14 @@ $(window).scroll(function() {
 		$('.header-line').removeClass('fixed');
    }
 
+   if ($(this).scrollTop() > 0) {
+        $('.header-line').addClass('header-on-scroll');
+        $('.header-line img').addClass('logo-style');
+   } else {
+        $('.header-line').removeClass('header-on-scroll');
+        $('.header-line img').removeClass('logo-style');
+   }
+
    if ($(this).scrollTop() == 0) {
         $('.header-line li a').removeClass('active');
    }
