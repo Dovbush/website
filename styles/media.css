@@ -352,6 +352,9 @@
         margin-bottom: 2rem;
         font-size: 2rem;
     }
+    header {
+        background-image:url('../images/Snail1-photo-smaller25.jpeg');
+    }
 }
 
 }
