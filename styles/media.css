@@ -348,10 +348,9 @@
     }
     .about-text {
         width: 100%;
-        line-height: 1;
         margin-top: 2rem;
         margin-bottom: 2rem;
-        font-size: 1rem;
+        font-size: 2rem;
     }
 }
 
