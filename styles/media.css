@@ -311,7 +311,7 @@
         font-size: 42px;
     }
     h2 {
-        font-size: 26px;
+        font-size: 1rem;
     }
     .solutions-item {
         max-width: 500px;
@@ -343,6 +343,17 @@
         padding-top: 60px;
         padding-bottom: 60px;
     }
+    .send-btn-style {
+        font-size: 2rem;
+    }
+    .about-text {
+        width: 100%;
+        line-height: 1;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        font-size: 12px;
+    }
+}
 
 }
 
