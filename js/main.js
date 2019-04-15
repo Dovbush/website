@@ -372,6 +372,6 @@ function hideElements(className) {
 function showElements(className) {
     let elements = document.getElementsByClassName(className);
     for (let i=0; i<elements.length; i++) {
-        elements[i].style.display = "block";
+        elements[i].style.display = "inline-block";
     }
 }
