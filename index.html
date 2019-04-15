@@ -5,8 +5,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="utf-8">
         <link rel="icon" type="image/ico" href="images/logo/icon_jpeg_48_48.ico">
+        <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
+
         <!-- <link href="https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800" rel="stylesheet"> -->
         <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="/css/sliderman.css" />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
@@ -53,10 +56,14 @@
                     <div class="col-xs-9 no-padding text-right">
                         <ul class="desktop-menu">
                             <li><a class="scrolling" href="#about-wrapper" onclick="scrollToAbout();">Про нас<hr></a></li>
-                            <li><a class="scrolling" href="#solutions-wrapper" onclick="scrollToService();">Послуги<hr></a></li>                       
+                            <li><a class="scrolling eng-lang" href="#about-wrapper" onclick="scrollToAbout();">About Us<hr></a></li>
+
+                            <li><a class="scrolling" href="#solutions-wrapper" onclick="scrollToService();">Послуги<hr></a></li>
+                            <li><a class="scrolling eng-lang" href="#solutions-wrapper" onclick="scrollToService();">Services<hr></a></li>                       
                             <!-- <li><a href="">Новини<hr></a></li> -->
                             <!-- <li><a href="vacancies.html">Vacancies<hr></a></li> -->
                             <li><a class="scrolling" href="#contacts-wrapper">Контакти<hr></a></li>
+                            <li><a class="scrolling eng-lang" href="#contacts-wrapper">Contact Us<hr></a></li>
                             <li class="vertical-align"><a href="#">EN</a></li>
                         </ul>
                         <div class="mobile-menu-wrapper">       
@@ -320,13 +327,16 @@
             <div class="bg-pattern-slider"></div>
             <div class="container">
                 <h1 class="col-xs-12">Галерея</h1>
-                <div class="col-xs-1 col-hidden"></div>
-                <div class="col-xs-2 text-center vertical-align col-width"><img src="images/slider/snails-small.jpg" alt="logo"></div>
-                <div class="col-xs-2 text-center vertical-align col-width"><img src="images/slider/teplytsiay.jpg" alt="logo"></div>
-                <div class="col-xs-2 text-center vertical-align col-width"><img class="smaller-img" src="images/slider/snails-field.jpg" alt="logo"></div>
-                <div class="col-xs-2 text-center vertical-align col-width col-width2"><img src="images/slider/snails-field-1.jpg" alt="logo"></div>
-                <div class="col-xs-2 text-center vertical-align col-width col-width2"><img src="images/slider/snails-on-hand.jpg" alt="logo"></div>
-                <div class="col-xs-1 col-hidden"></div>
+                <div id="SliderName_2">
+                    <div class="col-xs-1 col-hidden"></div>
+                    <div class="col-xs-2 text-center vertical-align col-width"><img src="images/slider/snails-small.jpg" alt="logo"></div>
+                    <div class="col-xs-2 text-center vertical-align col-width"><img src="images/slider/teplytsiay.jpg" alt="logo"></div>
+                    <div class="col-xs-2 text-center vertical-align col-width"><img class="smaller-img" src="images/slider/snails-field.jpg" alt="logo"></div>
+                    <div class="col-xs-2 text-center vertical-align col-width col-width2"><img src="images/slider/snails-field-1.jpg" alt="logo"></div>
+                    <div class="col-xs-2 text-center vertical-align col-width col-width2"><img src="images/slider/snails-on-hand.jpg" alt="logo"></div>
+                    <div class="col-xs-1 col-hidden"></div>
+                </div>
+                <div id="SliderNameNavigation_2"></div>
             </div>
         </section>
 
@@ -380,6 +390,7 @@
               crossorigin="anonymous">
         </script>
         <!-- <script src="js/jquery.nicescroll.js"></script> -->
+        <script type="text/javascript" src="/js/sliderman.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
         <script src="js/jquery.session.js"></script>
