@@ -349,8 +349,11 @@ function scrollToService() {
 }
 
 function scrollToBlock(sectionId) {
-    console.log('scrolllll ');
     $('html,body').animate({
         scrollTop: $("#" + sectionId).offset().top - 80},
         'slow');
+}
+
+function changeToEng() {
+    $(".eng-lang").addClass("show-element");
 }
