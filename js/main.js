@@ -360,3 +360,9 @@ function changeToEng() {
         elements[i].style.display = "block";
     }
 }
+function changeToUa() {
+    let elements = document.getElementsByName("ua-lang");
+    for (let i=0; i<elements.length; i++) {
+        elements[i].style.display = "block";
+    }
+}
