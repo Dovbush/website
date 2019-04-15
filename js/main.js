@@ -355,13 +355,22 @@ function scrollToBlock(sectionId) {
 }
 
 function changeToEng() {
-    let elements = document.getElementsByClassName("eng-lang");
-    for (let i=0; i<elements.length; i++) {
-        elements[i].style.display = "block";
-    }
+    hideElements("ua-lang");
+    showElements("eng-lang");
 }
 function changeToUa() {
-    let elements = document.getElementsByClassName("ua-lang");
+    hideElements("eng-lang");
+    showElements("ua-lang");
+}
+
+function hideElements(className) {
+    let elements = document.getElementsByClassName(className);
+    for (let i=0; i<elements.length; i++) {
+        elements[i].style.display = "none";
+    }
+}
+function showElements(className) {
+    let elements = document.getElementsByClassName(className);
     for (let i=0; i<elements.length; i++) {
         elements[i].style.display = "block";
     }
