@@ -355,5 +355,8 @@ function scrollToBlock(sectionId) {
 }
 
 function changeToEng() {
-    $(".eng-lang").addClass("show-element");
+    let elements = document.getElementsByName("eng-lang");
+    for (let i=0; i<elements.length; i++) {
+        elements[i].style.display = "block";
+    }
 }
