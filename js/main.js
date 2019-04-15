@@ -355,13 +355,13 @@ function scrollToBlock(sectionId) {
 }
 
 function changeToEng() {
-    let elements = document.getElementsByName("eng-lang");
+    let elements = document.getElementsByClassName("eng-lang");
     for (let i=0; i<elements.length; i++) {
         elements[i].style.display = "block";
     }
 }
 function changeToUa() {
-    let elements = document.getElementsByName("ua-lang");
+    let elements = document.getElementsByClassName("ua-lang");
     for (let i=0; i<elements.length; i++) {
         elements[i].style.display = "block";
     }
